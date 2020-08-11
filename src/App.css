@@ -1,0 +1,16 @@
+* {
+  background-color: skyblue;
+}
+.App {
+  text-align: left;
+  color: white;
+}
+.title {
+  font-size: 60px;
+  color: white;
+  padding-left: 20px;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+}
