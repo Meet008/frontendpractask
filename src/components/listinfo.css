@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.table,
+th,
+td {
+  border: 1px solid black;
+}
+th {
+  color: rgb(61, 59, 59);
+  padding: 5px;
+  align-items: center;
+}
+.tr {
+  border: 1px solid black;
+}
