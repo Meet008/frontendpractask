@@ -1,10 +1,32 @@
 * {
+  box-sizing: border-box;
   background-color: skyblue;
 }
 .App {
   text-align: left;
   color: white;
 }
+.button {
+  font-weight: 500;
+  color: white;
+  font-size: 16px;
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid white;
+  outline: none;
+  margin-left: auto;
+  cursor: pointer;
+  float: right;
+  margin-top: 20px;
+}
+
+.button:hover {
+  color: black;
+  background: white;
+}
+
 .title {
   font-size: 60px;
   color: white;
@@ -13,4 +35,64 @@
 .frame {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.input {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  width: 300px;
+  height: 8px;
+  padding: 25px 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #5eb4d6;
+  border: none !important;
+  outline: none !important;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.473);
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col2 {
+  display: flex;
+  flex-direction: column;
+}
+.firstpart {
+  width: 300px;
+  display: flex;
+  margin-right: 50px;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.secondpart {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.personal-name {
+  width: 100%;
+}
+
+.textarea {
+  width: 280px;
+  height: 280px;
+  border: none;
+  outline: none;
+  background: #5eb4d6;
+  padding: 25px 20px;
+  color: white;
 }
